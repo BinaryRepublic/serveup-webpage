@@ -1,4 +1,11 @@
 /********** common setting **********/
+::selection {
+    background: #00FFAD; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+    background: #00FFAD; /* Gecko Browsers */
+}
+
 h2 {
     font-size: 2.8rem !important;
     font-weight: 700;
@@ -74,7 +81,7 @@ button {
 }
 
 #banner header img {
-    max-width: 80px;
+    max-width: 30px;
 }
 
 /********** vision **********/
@@ -170,7 +177,7 @@ button {
 /********** Modal **********/
 .my-modal {
     display: none;
-    background: rgb(255, 255, 255); 
+    background: rgb(255, 255, 255);
     position: fixed;
     width: 350px;
     height: 150px;
